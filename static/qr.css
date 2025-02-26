@@ -1,0 +1,113 @@
+/* General Page Styling */
+body {
+background-color: #f8f9fa; /* Light background */
+font-family: 'Arial', sans-serif;
+padding: 20px;
+
+}
+
+/* Success Message */
+.alert {
+max-width: 600px;
+margin: 20px auto;
+text-align: center;
+font-size: 16px;
+}
+
+/* Heading & Button Section */
+.two_option {
+display: flex;
+justify-content: space-between;
+align-items: center;
+max-width: 900px;
+margin: 20px auto;
+padding: 10px;
+background: white;
+border-radius: 10px;
+border: 2px solid #007bff;
+box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.two_option h2 {
+font-size: 22px;
+color: #007bff;
+margin: 0;
+}
+
+.two_option a {
+text-decoration: none;
+background: #007bff;
+color: white;
+padding: 8px 15px;
+border-radius: 5px;
+transition: background 0.3s ease-in-out;
+}
+
+.two_option a:hover {
+background: #0056b3;
+}
+
+/* QR Code Card Styling */
+.card {
+border: 2px solid #007bff;  /* Blue border */
+border-radius: 10px;  /* Rounded corners */
+box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.1); /* Soft shadow */
+background: #fff;
+transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+padding: 15px;
+text-align: center;
+}
+
+.card:hover {
+transform: scale(1.05); /* Slight zoom effect */
+box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* QR Image Styling */
+.card img {
+border: 2px solid #ddd; /* Light border around the QR */
+border-radius: 8px;
+padding: 5px;
+width: 100%; /* Make sure it fits inside the card */
+height: auto;
+}
+
+/* Text Styling */
+h5 {
+color: #007bff;
+font-weight: bold;
+margin-bottom: 10px;
+}
+
+.text-muted {
+font-size: 14px;
+font-style: italic;
+}
+
+/* Grid System */
+.row {
+max-width: 1100px;
+margin: 30px auto;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+.col-md-4 {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.two_option {
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+}
+
+.two_option a {
+    width: 80%;
+    text-align: center;
+}
+}
