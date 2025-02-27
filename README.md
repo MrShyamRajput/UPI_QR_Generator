@@ -1,4 +1,4 @@
-# ✨ UPI QR Generator - A Django-Based QR Code Generator! 💳📲
+![Screenshot 2025-02-26 225127](https://github.com/user-attachments/assets/214756a2-61d8-4686-a32b-d5d5009e154b)# ✨ UPI QR Generator - A Django-Based QR Code Generator! 💳📲
 
 ## 🚀 About the Project
 This is a Django-powered web application that generates a scannable QR Code for your UPI ID instantly! Whether you're using Google Pay, PhonePe, Paytm, or any other UPI app, this tool makes transactions seamless.
@@ -45,13 +45,13 @@ python manage.py runserver
 
 Now, open your browser and visit `http://127.0.0.1:8000/` to access the app! 🎉
 
-## 📸 Screenshots
-(Include screenshots of your app here for a better visual representation.)
+
 
 ## ✨ Features
 ✅ Instant QR Code generation for any UPI ID  
 ✅ Simple and user-friendly interface  
 ✅ Works with all major UPI apps (Google Pay, PhonePe, Paytm, etc.)  
+![Uploading Screenshot 2025-02-26 225507.png…]()
 
 
 ## 🤝 Contributing
