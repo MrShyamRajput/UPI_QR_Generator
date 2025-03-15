@@ -1,13 +1,14 @@
 {
-   "builds": [{
-        "src": "UPI_QR_Generator/wsgi.py",
-        "use": "@vercel/python",
-        "config": { "maxLambdaSize": "15mb", "runtime": "python3.12" }
-    }],
-    "routes": [
-        {
-            "src": "/(.*)",
-            "dest": "UPI_QR_Generator/wsgi.py"
-        }
-    ]
+  "builds": [
+    {
+      "src": "UPI_QR_Generator/api/index.py",
+      "use": "@vercel/python"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "UPI_QR_Generator/api/index.py"
+    }
+  ]
 }
