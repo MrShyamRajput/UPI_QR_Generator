@@ -1,14 +1,9 @@
 {
-  "builds": [
-    {
-      "src": "UPI_QR_Generator/api/index.py",
-      "use": "@vercel/python"
-    }
-  ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "UPI_QR_Generator/api/index.py"
-    }
-  ]
+   
+    "routes": [
+        {
+            "src": "/(.*)",
+            "dest": "UPI_QR_Generator/wsgi.py"
+        }
+    ]
 }
